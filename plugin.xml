@@ -50,7 +50,7 @@
     <source-file src="src/android/nl/xservices/plugins/LaunchMyApp.java" target-dir="src/nl/xservices/plugins"/>
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
-		<activity android:name="FileTestApp" android:launchMode="singleTask" android:configChanges="orientation|screenSize|keyboardHidden" >
+		<activity android:name="FileTestApp" android:launchMode="singleTask" android:configChanges="orientation|screenSize" >
 			<intent-filter>
 				<data android:scheme="digiforms"/>
 				<action android:name="android.intent.action.VIEW" />
